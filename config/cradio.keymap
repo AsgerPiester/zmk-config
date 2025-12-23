@@ -1,5 +1,5 @@
 // Ferris Sweep Wireless – ZMK (cradio)
-// DK layout with æ ø å on separate layer
+// DK layout with æ ø å on separate layer 
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
