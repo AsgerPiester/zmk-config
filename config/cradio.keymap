@@ -22,7 +22,11 @@
     charmap_danish: charmap_danish {
         compatible = "zmk,character-map";
         behavior = <&kp>;
-        map = <>;
+        map = <
+            LBKT LS(LBKT)  // æ -> Æ
+            SQT LS(SQT)    // ø -> Ø  
+            SEMI LS(SEMI)  // å -> Å
+        >;
     };
 
     behaviors {
