@@ -15,6 +15,15 @@
 #define DK 5
 
 / {
+    chosen {
+        zmk,charmap = &charmap_danish;
+    };
+
+    charmap_danish: charmap_danish {
+        compatible = "zmk,character-map";
+        transform = <DQT SQT>;
+    };
+
     behaviors {
         ht: hold_tap {
             compatible = "zmk,behavior-hold-tap";
