@@ -21,6 +21,7 @@
 
     charmap_danish: charmap_danish {
         compatible = "zmk,character-map";
+        behavior = <&kp>;
         transform = <DQT SQT>;
     };
 
