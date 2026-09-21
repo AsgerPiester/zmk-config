@@ -1,0 +1,14 @@
+# Local west workspace (fetched by `west update`; GitHub Actions fetches
+# its own copy on every build — none of this should be committed here)
+/.west/
+/zmk/
+/zephyr/
+/modules/
+/build/
+/bootloader/
+/tools/
+
+# Editor / OS cruft
+.vscode/
+*.swp
+.DS_Store

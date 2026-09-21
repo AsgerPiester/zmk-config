@@ -18,11 +18,11 @@
 #
 ---
 include:
-  # keyboard: cradio sweep
+  # Ferris Sweep, 2x nice!nano v2. "cradio" is ZMK's built-in shield name
+  # for the Ferris Sweep / Sweep 34-key split board.
   - board: nice_nano_v2
     shield: cradio_left
     snippet: studio-rpc-usb-uart
-    #snippet: zmk-usb-logging
   - board: nice_nano_v2
     shield: cradio_right
   - board: nice_nano_v2
